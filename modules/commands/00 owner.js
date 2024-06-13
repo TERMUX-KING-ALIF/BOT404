@@ -17,26 +17,26 @@ module.exports.config = {
 };
 module.exports.handleEvent = async ({ api, event, Threads }) => {
     if (event.body.indexOf("owner")==0 || (event.body.indexOf("Romim")==0) || event.body.indexOf("ROMIM")==0 ||
-event.body.indexOf("রমিম")==0 ||
-event.body.indexOf("@Romim\______ :* 3:) ;* 3:) ;* ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎")==0 ||
+event.body.indexOf("আলিফ")==0 ||
+event.body.indexOf("@alif\______ :* 3:) ;* 3:) ;* ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎")==0 ||
 event.body.indexOf("owner ke re")==0 ||
 event.body.indexOf("ai Bot er admin ke")==0 ||
 event.body.indexOf("boss")==0 ||
-event.body.indexOf("Boss")==0|| event.body.indexOf("Owner")==0 || event.body.indexOf("Romim")==0 || event.body.indexOf("61557377382818")==0 ||  event.body.indexOf("Owner koi re")==0 ||
-event.body.indexOf("ROMIM")==0|| event.body.indexOf("Admin")==0 ||
+event.body.indexOf("Boss")==0|| event.body.indexOf("Owner")==0 || event.body.indexOf("alif")==0 || event.body.indexOf("100061374463417")==0 ||  event.body.indexOf("Owner koi re")==0 ||
+event.body.indexOf("ALIF")==0|| event.body.indexOf("Admin")==0 ||
 event.body.indexOf("admin")==0) {
     const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"https://i.imgur.com/aQD2XSU.jpg",
+"https://i.imgur.com/L8gsxbR.jpeg",
 
       
-"https://i.imgur.com/vcHxEWD.jpg",
+"https://i.imgur.com/L8gsxbR.jpeg",
 
       
-"https://i.imgur.com/OHuPguA.jpg"];
-     var callback = () => api.sendMessage({body:`\n•┄┅════❁🌺❁════┅┄•\n\n আসসালামু আলাইকুম-!!🖤💫\n•—»✨𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n 𝗡𝗮𝗺𝗲 : ➣「𝗥𝗢𝗠𝗜𝗠」 𝘽𝙊𝙏\n 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : 「 𝐑𝟒𝐌!𝐌  」 \n 𝗥𝗲𝗹𝗶𝗴𝗶𝗼𝗻 : 𝗜𝘀𝗹𝗮𝗺 \n 𝗼𝘄𝗻𝗲𝗿 𝗮𝗴𝗲 : 14+ \n 𝗼𝘄𝗻𝗲𝗿 𝗹𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : SECRET \n\n•┄┅════❁🌺❁════┅┄•\n`,attachment: fs.createReadStream(__dirname + "/cache/Snapchat-1850578295.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/Snapchat-1850578295.jpg"), event.messageID);
+"https://i.imgur.com/L8gsxbR.jpeg"];
+     var callback = () => api.sendMessage({body:`\n•┄┅════❁🌺❁════┅┄•\n\n আসসালামু আলাইকুম-!!🖤💫\n•—»✨𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n 𝗡𝗮𝗺𝗲 : ➣「𝐁𝐎𝐒𝐒 𝐀𝐋𝐈𝐅」 𝐂𝐇𝐀𝐓 𝘽𝙊𝙏\n 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : 「 𝐁𝐎𝐒𝐒 𝐀𝐋𝐈𝐅  」 \n 𝗥𝗲𝗹𝗶𝗴𝗶𝗼𝗻 : 𝗜𝘀𝗹𝗮𝗺 \n 𝗼𝘄𝗻𝗲𝗿 𝗮𝗴𝗲 : 18+ \n 𝗼𝘄𝗻𝗲𝗿 𝗹𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : SECRET \n\n•┄┅════❁🌺❁════┅┄•\n`,attachment: fs.createReadStream(__dirname + "https://i.imgur.com/8fi99cc.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "https://i.imgur.com/8fi99cc.jpeg"), event.messageID);
   const timeStart = Date.now();
   const dcm = process.uptime(); 
  var anh = Math.floor(dcm / (60 * 60));
@@ -47,7 +47,7 @@ axios.get(`http://scrapi.apibot.repl.co/thinh`);
 var thinh = res.data.url;
 let ext = res.data.data.substring(res.data.url.lastIndexOf(".") + 1);
       const PREFIX = config.PREFIX;
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/Snapchat-1850578295.jpg")).on("close",() => callback());
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"https://i.imgur.com/8fi99cc.jpeg")).on("close",() => callback());
 }
   
   module.exports.languages = {
@@ -81,4 +81,4 @@ api.sendMessage(`${(data["owner"] == false) ? getText("off") : getText("on")} ${
     }
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
 
-   };
+   }; 
